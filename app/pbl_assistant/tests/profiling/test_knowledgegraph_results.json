@@ -1,0 +1,294 @@
+{
+  "metadata": {
+    "test_run_timestamp": "2025-07-25 01:15:45",
+    "total_tests": 3,
+    "api_endpoint": "http://localhost:8001/knowledge_graph"
+  },
+  "tests": [
+    {
+      "test_id": "test1",
+      "test_name": "Weather and Climate Standard (5-ESS2-1)",
+      "status": "success",
+      "standard_analyzed": "5-ESS2-1",
+      "result": {
+        "description": "Develop a model using an example to describe ways the geosphere, biosphere, hydrosphere, and/or atmosphere interact.",
+        "topics": [
+          {
+            "name": "Scientific Inquiry",
+            "subtopics": [
+              "Observation",
+              "Hypothesis Testing",
+              "Data Analysis"
+            ]
+          },
+          {
+            "name": "Systems Thinking",
+            "subtopics": [
+              "Interactions",
+              "Patterns",
+              "Cause and Effect"
+            ]
+          },
+          {
+            "name": "Evidence-Based Reasoning",
+            "subtopics": [
+              "Data Collection",
+              "Analysis",
+              "Conclusions"
+            ]
+          }
+        ],
+        "cross_standards": [
+          {
+            "code": "CCSS.MATH.CONTENT.5.MD.B.2",
+            "subject": "Mathematics",
+            "description": "Represent and interpret data"
+          },
+          {
+            "code": "NGSS.5-ESS3-1",
+            "subject": "Science",
+            "description": "Analyze environmental impacts"
+          },
+          {
+            "code": "CCSS.ELA-LITERACY.SL.5.4",
+            "subject": "ELA",
+            "description": "Present findings clearly"
+          }
+        ],
+        "sdg_connections": [
+          {
+            "goal": 4,
+            "name": "Quality Education",
+            "applications": [
+              "Educational equity projects",
+              "Learning technology integration",
+              "Inclusive classroom design"
+            ]
+          },
+          {
+            "goal": 11,
+            "name": "Sustainable Communities",
+            "applications": [
+              "Community improvement projects",
+              "Urban planning activities",
+              "Local problem-solving initiatives"
+            ]
+          },
+          {
+            "goal": 17,
+            "name": "Partnerships for Goals",
+            "applications": [
+              "Collaborative research projects",
+              "Community partnerships",
+              "Cross-cultural exchanges"
+            ]
+          }
+        ],
+        "curricula": [
+          {
+            "name": "Project Lead The Way",
+            "grade_range": "K-12"
+          },
+          {
+            "name": "Expeditionary Learning",
+            "grade_range": "5-8"
+          },
+          {
+            "name": "Buck Institute PBL",
+            "grade_range": "K-12"
+          }
+        ]
+      }
+    },
+    {
+      "test_id": "test2",
+      "test_name": "Community Helpers Standard (CCSS.ELA-LITERACY.SL.1.4)",
+      "status": "success",
+      "standard_analyzed": "CCSS.ELA-LITERACY.SL.1.4",
+      "result": {
+        "description": "Describe people, places, things, and events with relevant details, expressing ideas and feelings clearly.",
+        "topics": [
+          {
+            "name": "Scientific Inquiry",
+            "subtopics": [
+              "Observation",
+              "Hypothesis Testing",
+              "Data Analysis"
+            ]
+          },
+          {
+            "name": "Systems Thinking",
+            "subtopics": [
+              "Interactions",
+              "Patterns",
+              "Cause and Effect"
+            ]
+          },
+          {
+            "name": "Evidence-Based Reasoning",
+            "subtopics": [
+              "Data Collection",
+              "Analysis",
+              "Conclusions"
+            ]
+          }
+        ],
+        "cross_standards": [
+          {
+            "code": "CCSS.MATH.CONTENT.1.MD.B.2",
+            "subject": "Mathematics",
+            "description": "Represent and interpret data"
+          },
+          {
+            "code": "NGSS.1-ESS3-1",
+            "subject": "Science",
+            "description": "Analyze environmental impacts"
+          },
+          {
+            "code": "CCSS.ELA-LITERACY.SL.1.4",
+            "subject": "ELA",
+            "description": "Present findings clearly"
+          }
+        ],
+        "sdg_connections": [
+          {
+            "goal": 4,
+            "name": "Quality Education",
+            "applications": [
+              "Educational equity projects",
+              "Learning technology integration",
+              "Inclusive classroom design"
+            ]
+          },
+          {
+            "goal": 11,
+            "name": "Sustainable Communities",
+            "applications": [
+              "Community improvement projects",
+              "Urban planning activities",
+              "Local problem-solving initiatives"
+            ]
+          },
+          {
+            "goal": 17,
+            "name": "Partnerships for Goals",
+            "applications": [
+              "Collaborative research projects",
+              "Community partnerships",
+              "Cross-cultural exchanges"
+            ]
+          }
+        ],
+        "curricula": [
+          {
+            "name": "Project Lead The Way",
+            "grade_range": "K-12"
+          },
+          {
+            "name": "Expeditionary Learning",
+            "grade_range": "1-8"
+          },
+          {
+            "name": "Buck Institute PBL",
+            "grade_range": "K-12"
+          }
+        ]
+      }
+    },
+    {
+      "test_id": "test3",
+      "test_name": "Multiple Standards (Science and Math)",
+      "status": "success",
+      "standard_analyzed": "5-ESS2-2",
+      "result": {
+        "description": "Describe and graph the amounts of salt water and fresh water in various reservoirs to provide evidence about the distribution of water on Earth.",
+        "topics": [
+          {
+            "name": "Scientific Inquiry",
+            "subtopics": [
+              "Observation",
+              "Hypothesis Testing",
+              "Data Analysis"
+            ]
+          },
+          {
+            "name": "Systems Thinking",
+            "subtopics": [
+              "Interactions",
+              "Patterns",
+              "Cause and Effect"
+            ]
+          },
+          {
+            "name": "Evidence-Based Reasoning",
+            "subtopics": [
+              "Data Collection",
+              "Analysis",
+              "Conclusions"
+            ]
+          }
+        ],
+        "cross_standards": [
+          {
+            "code": "CCSS.MATH.CONTENT.5.MD.B.2",
+            "subject": "Mathematics",
+            "description": "Represent and interpret data"
+          },
+          {
+            "code": "NGSS.5-ESS3-1",
+            "subject": "Science",
+            "description": "Analyze environmental impacts"
+          },
+          {
+            "code": "CCSS.ELA-LITERACY.SL.5.4",
+            "subject": "ELA",
+            "description": "Present findings clearly"
+          }
+        ],
+        "sdg_connections": [
+          {
+            "goal": 4,
+            "name": "Quality Education",
+            "applications": [
+              "Educational equity projects",
+              "Learning technology integration",
+              "Inclusive classroom design"
+            ]
+          },
+          {
+            "goal": 11,
+            "name": "Sustainable Communities",
+            "applications": [
+              "Community improvement projects",
+              "Urban planning activities",
+              "Local problem-solving initiatives"
+            ]
+          },
+          {
+            "goal": 17,
+            "name": "Partnerships for Goals",
+            "applications": [
+              "Collaborative research projects",
+              "Community partnerships",
+              "Cross-cultural exchanges"
+            ]
+          }
+        ],
+        "curricula": [
+          {
+            "name": "Project Lead The Way",
+            "grade_range": "K-12"
+          },
+          {
+            "name": "Expeditionary Learning",
+            "grade_range": "5-8"
+          },
+          {
+            "name": "Buck Institute PBL",
+            "grade_range": "K-12"
+          }
+        ]
+      }
+    }
+  ]
+}

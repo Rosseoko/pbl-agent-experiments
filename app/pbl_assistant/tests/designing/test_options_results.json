@@ -1,0 +1,225 @@
+{
+  "metadata": {
+    "test_run_timestamp": "2025-07-28 23:54:20",
+    "total_tests": 2,
+    "api_endpoint": "http://localhost:8001/design_options"
+  },
+  "tests": [
+    {
+      "test_id": "test1",
+      "test_name": "Weather and Climate Project (5-ESS2-1)",
+      "status": "success",
+      "selected_template": "interdisciplinary",
+      "result": {
+        "selected_template": "interdisciplinary",
+        "template_rationale": "The interdisciplinary nature allows rich exploration of the weather and climate topic through multiple lenses like science, math, and social impacts. The high complexity is manageable with 3 weeks, and provides an authentic challenge incorporating analysis, modeling, and cross-curricular synthesis. This template gives flexibility to develop diverse projects that build core skills while making interdisciplinary connections.",
+        "project_options": [
+          {
+            "title": "Climate Impacts and Sustainable Solutions",
+            "focus_approach": "Community Impact",
+            "driving_question": "How can we develop sustainable solutions to reduce the impacts of climate change in our community?",
+            "end_product": "Community outreach campaigns and proposals for local sustainable initiatives",
+            "key_skills": [
+              "Research",
+              "Data Analysis",
+              "Systems Thinking",
+              "Strategic Communication"
+            ],
+            "learning_objectives": [
+              "Analyze climate data",
+              "Evaluate information sources",
+              "Develop evidence-based arguments",
+              "Design sustainable solutions"
+            ],
+            "key_activities": [
+              "Research climate change causes, effects, data in our region",
+              "Analyze local climate trends and predict future impacts",
+              "Investigate sustainable practices to mitigate climate impacts",
+              "Co-design solutions with community stakeholders",
+              "Create advocacy campaigns to raise awareness and drive action"
+            ],
+            "assessment_highlights": [
+              "Climate data interpretation",
+              "Sustainable solution viability",
+              "Campaign communication effectiveness"
+            ],
+            "assessment_summary": "Students will be assessed on their research process, climate impact analysis, proposed solutions, outreach campaign effectiveness, and ability to interpret/leverage data to inform their work.",
+            "differentiation_notes": "Provide different data sets based on reading levels. Allow multi-modal presentation formats. Flexible roles based on strengths."
+          },
+          {
+            "title": "Weather Forecasting and Emergency Preparedness",
+            "focus_approach": "Design Challenge",
+            "driving_question": "How can we improve community preparedness and response to severe weather events?",
+            "end_product": "Weather monitoring system, emergency plans, community training resources",
+            "key_skills": [
+              "Data Modeling",
+              "Problem-Solving",
+              "Systems Design",
+              "Risk Analysis"
+            ],
+            "learning_objectives": [
+              "Interpret weather data",
+              "Forecast methodologies",
+              "Assess potential hazards",
+              "Design effective preparedness systems"
+            ],
+            "key_activities": [
+              "Study weather fundamentals, patterns and severe event types",
+              "Analyze historical weather data and forecast models",
+              "Design prototypes for monitoring/predicting severe events",
+              "Develop emergency plans and communication strategies",
+              "Test and refine solutions with first responder feedback"
+            ],
+            "assessment_highlights": [
+              "Weather data interpretation",
+              "Solution design process",
+              "Stakeholder feedback integration"
+            ],
+            "assessment_summary": "Students will be assessed on weather analyses, design process documentation, system functionality, preparedness plan effectiveness, ability to obtain/leverage stakeholder feedback.",
+            "differentiation_notes": "Provide physical and digital prototyping options. Adjust reading levels of data sources. Flexible grouping for strengths."
+          },
+          {
+            "title": "Climate Migration and Cultural Impacts",
+            "focus_approach": "Research Deep-Dive",
+            "driving_question": "How is climate change influencing human migration patterns and affecting cultural communities?",
+            "end_product": "Research papers, policy briefs, multimedia exhibits",
+            "key_skills": [
+              "Research",
+              "Cultural Awareness",
+              "Empathy",
+              "Multimedia Communication"
+            ],
+            "learning_objectives": [
+              "Analyze climate migration factors",
+              "Evaluate sources",
+              "Conduct ethical interviews/fieldwork",
+              "Develop evidence-based proposals"
+            ],
+            "key_activities": [
+              "Research global climate migration trends and drivers",
+              "Investigate sociocultural impacts of climate-driven displacement",
+              "Analyze stories of affected populations through interviews/artifacts",
+              "Synthesize findings through multimedia presentations",
+              "Propose policy recommendations to support displaced communities"
+            ],
+            "assessment_highlights": [
+              "Quality of research process",
+              "Ethical fieldwork with stakeholders",
+              "Evidence-based proposals and recommendations"
+            ],
+            "assessment_summary": "Students will be assessed on their research process, source analysis, empathy/ethics in fieldwork, ability to synthesize and communicate findings in written and multimedia formats.",
+            "differentiation_notes": "Provide study skill support. Options for individual or team multimedia creation. Flexible roles based on strengths."
+          }
+        ],
+        "configuration_details": {
+          "duration": "3 weeks",
+          "structure": "Project-based Learning Format",
+          "primary_subject": "Science (with interdisciplinary connections)"
+        }
+      }
+    },
+    {
+      "test_id": "test2",
+      "test_name": "Community Helpers Project (CCSS.ELA-LITERACY.SL.1.4)",
+      "status": "success",
+      "selected_template": "community_action",
+      "result": {
+        "selected_template": "community_action",
+        "template_rationale": "The Community Action Project template was selected because it aligns well with the goal of studying community helpers in an engaging, authentic way. By having students identify real local issues, research causes, and propose solutions, it connects directly to the topic while developing important citizenship and academic skills. The template's emphasis on stakeholder collaboration and public presentation is also valuable. While listed as high complexity, the activities can be scaled for a 1st grade level. The focus on social studies and ELA ties into the humanities standards.",
+        "project_options": [
+          {
+            "title": "Helpers in Our Town",
+            "focus_approach": "Community Impact",
+            "driving_question": "How can we make our community a better place for the helpers who serve us?",
+            "end_product": "Student proposals presented to local helpers and officials",
+            "key_skills": [
+              "Research and inquiry",
+              "Interviewing",
+              "Empathy and perspective-taking",
+              "Presentation skills"
+            ],
+            "learning_objectives": [
+              "Describe different community helper roles and responsibilities",
+              "Identify challenges community helpers face"
+            ],
+            "key_activities": [
+              "Research different community helper roles and challenges",
+              "Interview local helpers to understand needs",
+              "Design and propose ideas to say 'thank you' to helpers"
+            ],
+            "assessment_highlights": [
+              "Presentations evaluated by community members",
+              "Reflection journals tracking learning process"
+            ],
+            "assessment_summary": "Students will research community helpers, interview them, and create proposals to better support local helpers. Final presentations to helpers and reflections.",
+            "differentiation_notes": "Provide differing research sources for reading levels. Adjust presentation expectations. Choice for individual or group work."
+          },
+          {
+            "title": "Helpers at Work",
+            "focus_approach": "Design Challenge",
+            "driving_question": "How can we design better tools or workspaces for community helpers?",
+            "end_product": "Prototype for an improved tool or workspace design",
+            "key_skills": [
+              "Observation skills",
+              "User interviews",
+              "Prototyping and iteration",
+              "Testing and user feedback"
+            ],
+            "learning_objectives": [
+              "Identify inefficiencies or challenges in existing tools/workspaces",
+              "Apply design process to develop solutions"
+            ],
+            "key_activities": [
+              "Observe community helpers in action",
+              "Interview helpers about challenges",
+              "Brainstorm and prototype new ideas",
+              "Test prototypes and iterate based on feedback"
+            ],
+            "assessment_highlights": [
+              "Design portfolios with prototypes and iterations",
+              "Final design presentations to authentic users"
+            ],
+            "assessment_summary": "Students will observe helpers, identify needs, and design/build prototypes of improved tools or workspaces through iterative feedback cycles.",
+            "differentiation_notes": "Provide extra prototyping materials and instruction. Scaffold design thinking process clearly. Allow choice in which community helpers to focus on."
+          },
+          {
+            "title": "Heroes in our Hallways",
+            "focus_approach": "Research Deep-Dive",
+            "driving_question": "How have the roles and impacts of school helpers changed over time?",
+            "end_product": "Digital museum exhibit highlighting historical changes and importance of school helpers",
+            "key_skills": [
+              "Historical research and analysis",
+              "Interviewing and source evaluation",
+              "Multimedia presentation and storytelling"
+            ],
+            "learning_objectives": [
+              "Explain how school helper roles have evolved over time",
+              "Analyze the societal impacts of school helpers"
+            ],
+            "key_activities": [
+              "Investigate history of school helper roles like nurses, counselors, cafeteria staff",
+              "Analyze primary sources and expert interviews",
+              "Create museum exhibit sharing research insights"
+            ],
+            "assessment_highlights": [
+              "Research portfolios demonstrating process",
+              "Museum exhibit requirements based on historical thinking skills"
+            ],
+            "assessment_summary": "Students will conduct in-depth research into history of school helpers, then create a digital museum highlighting changes, importance, and impacts.",
+            "differentiation_notes": "Provide varying reading levels and audio sources. Allow flexibility in exhibit formats. Facilitate research buddies for support."
+          }
+        ],
+        "configuration_details": {
+          "duration": "UNIT",
+          "social_structure": "INDIVIDUAL",
+          "cognitive_complexity": "ANALYSIS",
+          "authenticity_level": "ANCHORED",
+          "scaffolding_intensity": "FACILITATED",
+          "product_complexity": "PORTFOLIO",
+          "delivery_mode": "FACE_TO_FACE",
+          "rationale": "Configuration optimized for Community Helpers with 2 weeks duration"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+setup.py
+app/pbl_assistant.egg-info/PKG-INFO
+app/pbl_assistant.egg-info/SOURCES.txt
+app/pbl_assistant.egg-info/dependency_links.txt
+app/pbl_assistant.egg-info/top_level.txt

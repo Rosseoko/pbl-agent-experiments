@@ -1,0 +1,412 @@
+{
+  "metadata": {
+    "test_run_timestamp": "2025-07-24 22:35:39",
+    "total_tests": 2,
+    "api_endpoint": "http://localhost:8001/standards"
+  },
+  "tests": [
+    {
+      "test_id": "test5",
+      "test_name": "Multiple Standards (4+ standards)",
+      "status": "success",
+      "teacher_request": "I need a 3-week project for my 5th grade class where students will track weather patterns and analyze climate data. They should use instruments to collect data and create a report. The project should cover multiple standards related to Earth's systems and engineering.",
+      "original_utterance": "I need a 3-week project for my 5th grade class where students will track weather patterns and analyze climate data. They should use instruments to collect data and create a report. The project should cover multiple standards related to Earth's systems and engineering.",
+      "result": {
+        "success": true,
+        "alignment": {
+          "standards": [
+            {
+              "code": "5-ESS2-1",
+              "type": "ngss",
+              "description": "Develop a model using an example to describe ways the geosphere, biosphere, hydrosphere, and/or atmosphere interact.",
+              "grade_level": "5",
+              "is_valid": true,
+              "corrected_from": null,
+              "validation_note": null,
+              "primary_bloom_level": "understand",
+              "secondary_bloom_levels": [],
+              "dok_level": "skill_concept",
+              "project_specific_vocabulary": [
+                "atmosphere",
+                "hydrosphere",
+                "geosphere",
+                "weather patterns",
+                "climate"
+              ],
+              "learning_objectives": [
+                {
+                  "objective": "Explain how the atmosphere, hydrosphere, and geosphere interact to influence weather patterns and climate in the Weather and Climate project.",
+                  "bloom_level": "understand",
+                  "dok_level": "skill_concept"
+                },
+                {
+                  "objective": "Create a model that demonstrates the interactions between the Earth's systems that drive weather and climate in the Weather and Climate project.",
+                  "bloom_level": "create",
+                  "dok_level": "extended_thinking"
+                }
+              ],
+              "formative_assessments": [
+                {
+                  "type": "class discussion",
+                  "description": "Discuss how the Earth's systems interact to influence weather patterns",
+                  "timing": "ongoing",
+                  "bloom_level": "understand",
+                  "dok_level": "skill_concept"
+                },
+                {
+                  "type": "diagramming activity",
+                  "description": "Draw a model showing the interactions between the atmosphere, hydrosphere, and geosphere",
+                  "timing": "midway",
+                  "bloom_level": "apply",
+                  "dok_level": "skill_concept"
+                }
+              ],
+              "summative_assessments": [
+                {
+                  "type": "project-based assessment",
+                  "description": "Construct a model that accurately depicts the interactions between Earth's systems that drive weather and climate patterns",
+                  "timing": "end of project",
+                  "bloom_level": "create",
+                  "dok_level": "extended_thinking"
+                }
+              ],
+              "scaffolds": [
+                "Provide sentence starters for explaining system interactions",
+                "Give examples of models that show Earth system connections"
+              ]
+            },
+            {
+              "code": "5-ESS3-1",
+              "type": "ngss",
+              "description": "Obtain and combine information about ways individual communities use science ideas to protect the Earth's resources and environment.",
+              "grade_level": "5",
+              "is_valid": true,
+              "corrected_from": null,
+              "validation_note": null,
+              "primary_bloom_level": "apply",
+              "secondary_bloom_levels": [],
+              "dok_level": "strategic_thinking",
+              "project_specific_vocabulary": [
+                "weather data",
+                "climate data",
+                "resource protection",
+                "environmental conservation"
+              ],
+              "learning_objectives": [
+                {
+                  "objective": "Research how communities use scientific data about weather and climate to protect the environment in the Weather and Climate project.",
+                  "bloom_level": "analyze",
+                  "dok_level": "strategic_thinking"
+                },
+                {
+                  "objective": "Develop a plan to present findings on how the local community can use weather and climate data to protect resources in the Weather and Climate project.",
+                  "bloom_level": "create",
+                  "dok_level": "extended_thinking"
+                }
+              ],
+              "formative_assessments": [
+                {
+                  "type": "research activity",
+                  "description": "Find examples of how communities use weather and climate data to protect resources",
+                  "timing": "midway",
+                  "bloom_level": "analyze",
+                  "dok_level": "strategic_thinking"
+                },
+                {
+                  "type": "presentation outline",
+                  "description": "Outline a plan to share findings on using weather/climate data for resource protection",
+                  "timing": "near end",
+                  "bloom_level": "create",
+                  "dok_level": "strategic_thinking"
+                }
+              ],
+              "summative_assessments": [
+                {
+                  "type": "presentation",
+                  "description": "Present findings on how the local community can use weather and climate data to protect resources",
+                  "timing": "end of project",
+                  "bloom_level": "create",
+                  "dok_level": "extended_thinking"
+                }
+              ],
+              "scaffolds": [
+                "Provide guiding questions for the research process",
+                "Review presentation best practices before final delivery"
+              ]
+            },
+            {
+              "code": "5-ESS2-2",
+              "type": "ngss",
+              "description": "Describe and graph the amounts of salt water and fresh water in various reservoirs to provide evidence about the distribution of water on Earth.",
+              "grade_level": "5",
+              "is_valid": true,
+              "corrected_from": null,
+              "validation_note": null,
+              "primary_bloom_level": "apply",
+              "secondary_bloom_levels": [],
+              "dok_level": "skill_concept",
+              "project_specific_vocabulary": [
+                "reservoirs",
+                "salt water",
+                "fresh water",
+                "water distribution",
+                "weather patterns"
+              ],
+              "learning_objectives": [
+                {
+                  "objective": "Collect and graph data on the distribution of water in different reservoirs as part of the weather station and data analysis report.",
+                  "bloom_level": "apply",
+                  "dok_level": "skill_concept"
+                },
+                {
+                  "objective": "Explain how the distribution of water on Earth affects weather patterns in the Weather and Climate project.",
+                  "bloom_level": "understand",
+                  "dok_level": "skill_concept"
+                }
+              ],
+              "formative_assessments": [
+                {
+                  "type": "data collection",
+                  "description": "Measure and record amounts of salt and fresh water in different reservoirs",
+                  "timing": "ongoing",
+                  "bloom_level": "apply",
+                  "dok_level": "skill_concept"
+                },
+                {
+                  "type": "graphing activity",
+                  "description": "Create graphs to visualize the distribution of water on Earth",
+                  "timing": "midway",
+                  "bloom_level": "apply",
+                  "dok_level": "skill_concept"
+                }
+              ],
+              "summative_assessments": [
+                {
+                  "type": "written report",
+                  "description": "Summarize findings on the distribution of water and explain how it impacts weather patterns",
+                  "timing": "end of project",
+                  "bloom_level": "understand",
+                  "dok_level": "skill_concept"
+                }
+              ],
+              "scaffolds": [
+                "Provide data collection templates",
+                "Review graphing techniques before creating visuals"
+              ]
+            },
+            {
+              "code": "5-PS1-4",
+              "type": "ngss",
+              "description": "Conduct an investigation to determine whether the mixing of two or more substances results in new substances.",
+              "grade_level": "5",
+              "is_valid": true,
+              "corrected_from": null,
+              "validation_note": null,
+              "primary_bloom_level": "apply",
+              "secondary_bloom_levels": [],
+              "dok_level": "skill_concept",
+              "project_specific_vocabulary": [
+                "chemical properties",
+                "physical properties",
+                "chemical reactions",
+                "new substances"
+              ],
+              "learning_objectives": [
+                {
+                  "objective": "Design and conduct experiments to investigate how mixing different substances affects their properties in the Weather and Climate project.",
+                  "bloom_level": "apply",
+                  "dok_level": "skill_concept"
+                },
+                {
+                  "objective": "Analyze data from experiments to determine if new substances were formed through mixing in the Weather and Climate project.",
+                  "bloom_level": "analyze",
+                  "dok_level": "strategic_thinking"
+                }
+              ],
+              "formative_assessments": [
+                {
+                  "type": "lab report",
+                  "description": "Describe experimental design and observations from mixing substances",
+                  "timing": "ongoing",
+                  "bloom_level": "apply",
+                  "dok_level": "skill_concept"
+                },
+                {
+                  "type": "data analysis activity",
+                  "description": "Interpret results to determine if new substances were formed",
+                  "timing": "midway",
+                  "bloom_level": "analyze",
+                  "dok_level": "strategic_thinking"
+                }
+              ],
+              "summative_assessments": [
+                {
+                  "type": "presentation",
+                  "description": "Present findings on how mixing substances affects their properties and whether new substances were formed",
+                  "timing": "end of project",
+                  "bloom_level": "create",
+                  "dok_level": "extended_thinking"
+                }
+              ],
+              "scaffolds": [
+                "Provide templates for lab reports",
+                "Review data analysis techniques before final presentation"
+              ]
+            }
+          ],
+          "prerequisites": [
+            "Understanding of Earth's major systems (atmosphere, hydrosphere, geosphere)",
+            "Basic scientific investigation skills (observation, data collection, analysis)"
+          ],
+          "cross_curricular_connections": [
+            "Math - Graphing, data analysis",
+            "ELA - Research, presenting findings"
+          ],
+          "implementation_sequence": [
+            "1. Introduce weather/climate systems and interactions (5-ESS2-1)",
+            "2. Conduct experiments on chemical/physical properties (5-PS1-4)",
+            "3. Collect and analyze water distribution data (5-ESS2-2)",
+            "4. Research community use of weather/climate data (5-ESS3-1)",
+            "5. Develop final weather station and data analysis report"
+          ],
+          "context_specific_tips": [
+            "Focus on connecting weather/climate data to environmental protection",
+            "Emphasize hands-on experimentation with mixing substances",
+            "Incorporate data visualization to understand water distribution"
+          ],
+          "alignment_confidence": 0.9,
+          "validation_issues": []
+        },
+        "project_topic": "Weather and Climate",
+        "contextualization": "Standards aligned specifically for Weather and Climate project creating Weather station and data analysis report"
+      }
+    },
+    {
+      "test_id": "test6",
+      "test_name": "No Standards Provided",
+      "status": "success",
+      "teacher_request": "Looking for a 1-week project for my 1st graders about community helpers. No specific standards needed, just want something age-appropriate and engaging that helps them learn about different jobs in our community.",
+      "original_utterance": "Looking for a 1-week project for my 1st graders about community helpers. No specific standards needed, just want something age-appropriate and engaging that helps them learn about different jobs in our community.",
+      "result": {
+        "success": true,
+        "alignment": {
+          "standards": [
+            {
+              "code": "CCSS.ELA-LITERACY.SL.1.1",
+              "type": "ccss_ela",
+              "description": "Participate in collaborative conversations with diverse partners about grade 1 topics and texts with peers and adults in small and larger groups.",
+              "grade_level": "1",
+              "is_valid": true,
+              "corrected_from": null,
+              "validation_note": null,
+              "primary_bloom_level": "understand",
+              "secondary_bloom_levels": [
+                "apply"
+              ],
+              "dok_level": "skill_concept",
+              "project_specific_vocabulary": [
+                "community",
+                "helper",
+                "role"
+              ],
+              "learning_objectives": [
+                {
+                  "objective": "Discuss community helpers and their roles with classmates",
+                  "bloom_level": "understand",
+                  "dok_level": "skill_concept"
+                }
+              ],
+              "formative_assessments": [
+                {
+                  "type": "discussion",
+                  "description": "Observe students discussing community helpers and their roles",
+                  "timing": "ongoing",
+                  "bloom_level": "understand",
+                  "dok_level": "skill_concept"
+                }
+              ],
+              "summative_assessments": [
+                {
+                  "type": "presentation",
+                  "description": "Students present their community helper to the class",
+                  "timing": "end of project",
+                  "bloom_level": "apply",
+                  "dok_level": "skill_concept"
+                }
+              ],
+              "scaffolds": [
+                "Sentence starters for discussions",
+                "Visual aids for presentations"
+              ]
+            },
+            {
+              "code": "CCSS.ELA-LITERACY.W.1.2",
+              "type": "ccss_ela",
+              "description": "Write informative/explanatory texts in which they name a topic, supply some facts about the topic, and provide some sense of closure.",
+              "grade_level": "1",
+              "is_valid": true,
+              "corrected_from": null,
+              "validation_note": null,
+              "primary_bloom_level": "apply",
+              "secondary_bloom_levels": [
+                "understand"
+              ],
+              "dok_level": "skill_concept",
+              "project_specific_vocabulary": [
+                "informative",
+                "topic",
+                "fact"
+              ],
+              "learning_objectives": [
+                {
+                  "objective": "Write an informative paragraph about a community helper and their role",
+                  "bloom_level": "apply",
+                  "dok_level": "skill_concept"
+                }
+              ],
+              "formative_assessments": [
+                {
+                  "type": "written work",
+                  "description": "Review students' draft paragraphs about their community helper",
+                  "timing": "mid-project",
+                  "bloom_level": "apply",
+                  "dok_level": "skill_concept"
+                }
+              ],
+              "summative_assessments": [
+                {
+                  "type": "presentation",
+                  "description": "Students present their final paragraph about their community helper",
+                  "timing": "end of project",
+                  "bloom_level": "apply",
+                  "dok_level": "skill_concept"
+                }
+              ],
+              "scaffolds": [
+                "Graphic organizers for planning",
+                "Word banks for vocabulary"
+              ]
+            }
+          ],
+          "prerequisites": [],
+          "cross_curricular_connections": [],
+          "implementation_sequence": [
+            "Discuss community helpers and their roles",
+            "Research a community helper",
+            "Write an informative paragraph",
+            "Present community helper"
+          ],
+          "context_specific_tips": [
+            "Encourage students to interview family members who are community helpers",
+            "Provide sentence starters to support discussions",
+            "Display visuals of different community helpers"
+          ],
+          "alignment_confidence": 0.9,
+          "validation_issues": []
+        },
+        "project_topic": "Community Helpers",
+        "contextualization": "Standards aligned specifically for Community Helpers project creating Community helper presentation"
+      }
+    }
+  ]
+}

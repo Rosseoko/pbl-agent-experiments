@@ -1,0 +1,53 @@
+{
+  "template_name": "Community Action Project",
+  "tagline": "Students identify real community problems and develop action plans for meaningful change",
+  "key_elements": {
+    "driving_question": "How can we address a critical need in our community?",
+    "final_product": "Community Action Plan with implementation strategy and stakeholder presentation",
+    "core_skills": [
+      {
+        "skill": "Research & Data Analysis",
+        "application": "Students collect and analyze community data to identify problems and evaluate solutions",
+        "assessment_connection": "Evaluated through research quality and evidence-based conclusions"
+      },
+      {
+        "skill": "Systems Thinking",
+        "application": "Students map community systems and identify intervention points for change",
+        "assessment_connection": "Evaluated through stakeholder analysis and solution viability"
+      },
+      {
+        "skill": "Communication & Advocacy",
+        "application": "Students develop persuasive presentations for authentic community audiences",
+        "assessment_connection": "Evaluated through final presentation and stakeholder feedback"
+      }
+    ]
+  },
+  "overview": "The Community Action Project engages students as civic investigators and changemakers, starting with their own curiosities about community challenges and building toward authentic action.\n\nLearning Journey: Students begin by wondering about problems they notice in their community, then dive deep through stakeholder interviews, data exploration, and collaborative research. They develop and test creative solutions with community feedback before presenting action plans to real audiences who can implement change.\n\nStudent Experience: This project honors multiple ways of learning and expressing ideas\u2014from visual storytelling to hands-on prototyping to community dialogue facilitation. Students choose their focus areas, research methods, and presentation formats while building genuine relationships with community stakeholders.\n\nFlexible Implementation: Scales from 3-day community problem explorations to semester-long impact initiatives. Works equally well with small collaborative teams or networked connections across multiple classrooms. Can adapt to any delivery mode while maintaining authentic community engagement.\n\nThe project transforms students from passive learners into active citizens who see themselves as capable of creating meaningful change in their communities.",
+  "configuration_details": {
+    "time_commitment": "Unit",
+    "collaboration_type": "Collaborative",
+    "thinking_level": "Analysis",
+    "real_world_connection": "Applied",
+    "teacher_guidance": "Facilitated",
+    "final_product": "Portfolio",
+    "instructional_mode": "Face To Face"
+  },
+  "implementation": {
+    "suggested_title": "Community Issue Investigation",
+    "key_learning_activities": [
+      "Identify community issues",
+      "Research root causes",
+      "Develop action plans",
+      "Implement solutions",
+      "Evaluate impact"
+    ]
+  },
+  "assessment_highlights": [
+    "Students document their learning journey through research portfolios",
+    "Community members provide authentic feedback on student solutions",
+    "Final presentations are delivered to real audiences who can take action"
+  ],
+  "community_engagement_level": "Moderate - requires 2-3 community stakeholder interviews and one authentic audience presentation",
+  "student_readiness": "Works best with students who can conduct respectful interviews and handle complex social issues. Adaptable for all grade levels with appropriate scaffolding.",
+  "what_success_looks_like": "Students become genuinely invested in their community issue, develop relationships with local stakeholders, and present actionable solutions that community members take seriously. Many students continue civic engagement beyond the project."
+}

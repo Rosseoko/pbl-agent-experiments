@@ -1,0 +1,363 @@
+{
+  "metadata": {
+    "test_run_timestamp": "2025-07-23 18:30:30",
+    "total_tests": 6,
+    "api_endpoint": "http://localhost:8001/profiling"
+  },
+  "tests": [
+    {
+      "test_id": "1",
+      "test_name": "Basic Project Request (English with Grade Level)",
+      "status": "success",
+      "request": "I want to create a 3-week project for my 5th grade class about renewable energy. The students will work in teams to design and build small wind turbines using recycled materials. We have access to basic craft supplies and a fan for testing. The project should incorporate science standards about energy and engineering design principles. We're particularly interested in NGSS standards 4-PS3-4 and 3-5-ETS1-1. The students enjoy hands-on activities related to renewable energy, engineering, and environmental science. I'd like them to develop skills in teamwork, problem-solving, and scientific inquiry.",
+      "response": {
+        "success": true,
+        "profile": {
+          "topic": "Renewable energy",
+          "grade_level": "5",
+          "duration_preference": "3 weeks",
+          "original_language": null,
+          "original_utterance": null,
+          "translation": null,
+          "age_range": null,
+          "primary_intent": "Engineering Design",
+          "secondary_intents": [],
+          "content_area_focus": "STEM Heavy",
+          "learning_outcomes": [
+            "Understand energy principles",
+            "Apply engineering design process",
+            "Develop teamwork and problem-solving skills"
+          ],
+          "requires_experimentation": true,
+          "involves_data_collection": false,
+          "needs_mathematical_analysis": false,
+          "includes_design_challenge": true,
+          "uses_technology_tools": true,
+          "community_connection_desired": false,
+          "hands_on_emphasis": true,
+          "research_intensive": false,
+          "presentation_focused": false,
+          "collaborative_emphasis": true,
+          "materials_mentioned": true,
+          "resource_limitations_mentioned": false,
+          "time_constraints_noted": false,
+          "assessment_requirements": [],
+          "cultural_considerations": [],
+          "implicit_goals": [],
+          "class_interests": [
+            "Renewable energy",
+            "Engineering",
+            "Environmental science"
+          ],
+          "standard_codes": [
+            "4-PS3-4",
+            "3-5-ETS1-1"
+          ],
+          "real_world_exploration": false,
+          "places_to_visit": [],
+          "skills_to_develop": [
+            "Teamwork",
+            "Problem-solving",
+            "Scientific inquiry"
+          ],
+          "end_product": "Small wind turbines made with recycled materials"
+        }
+      }
+    },
+    {
+      "test_id": "2",
+      "test_name": "Project with Specific Age",
+      "status": "success",
+      "request": "I need a 2-week project for my students who are 8 years old about marine life. We have access to a local aquarium for a field trip. The project should help students understand ocean ecosystems and conservation. Many of my students are visual learners and enjoy hands-on activities. I'd like them to develop observation skills and learn about marine biodiversity.",
+      "response": {
+        "success": true,
+        "profile": {
+          "topic": "Marine life",
+          "grade_level": "3",
+          "duration_preference": "2 weeks",
+          "original_language": "en",
+          "original_utterance": "I need a 2-week project for my students who are 8 years old about marine life. We have access to a local aquarium for a field trip. The project should help students understand ocean ecosystems and conservation. Many of my students are visual learners and enjoy hands-on activities. I'd like them to develop observation skills and learn about marine biodiversity.",
+          "translation": "N/A",
+          "age_range": {
+            "min": 8,
+            "max": 8
+          },
+          "primary_intent": "Scientific Inquiry",
+          "secondary_intents": [
+            "Interdisciplinary"
+          ],
+          "content_area_focus": "STEM Heavy",
+          "learning_outcomes": [
+            "Understand ocean ecosystems and conservation",
+            "Develop observation skills",
+            "Learn about marine biodiversity"
+          ],
+          "requires_experimentation": true,
+          "involves_data_collection": true,
+          "needs_mathematical_analysis": false,
+          "includes_design_challenge": false,
+          "uses_technology_tools": true,
+          "community_connection_desired": true,
+          "hands_on_emphasis": true,
+          "research_intensive": false,
+          "presentation_focused": false,
+          "collaborative_emphasis": false,
+          "materials_mentioned": false,
+          "resource_limitations_mentioned": false,
+          "time_constraints_noted": true,
+          "assessment_requirements": [],
+          "cultural_considerations": [],
+          "implicit_goals": [
+            "Develop observation skills"
+          ],
+          "class_interests": [
+            "visual learning",
+            "hands-on activities"
+          ],
+          "standard_codes": [],
+          "real_world_exploration": true,
+          "places_to_visit": [
+            "Local aquarium"
+          ],
+          "skills_to_develop": [
+            "Observation skills",
+            "Understanding of ocean ecosystems and conservation",
+            "Knowledge of marine biodiversity"
+          ],
+          "end_product": "N/A"
+        }
+      }
+    },
+    {
+      "test_id": "3",
+      "test_name": "Project with Age Range",
+      "status": "success",
+      "request": "I'm looking for a 4-week project for students aged 12-14 about ancient civilizations. The project should include research, creative presentations, and a hands-on component. We have access to the school library and computer lab twice a week. Students should develop research skills, critical thinking, and presentation abilities while learning about different ancient cultures.",
+      "response": {
+        "success": true,
+        "profile": {
+          "topic": "Ancient civilizations",
+          "grade_level": "[\"7\", \"8\", \"9\"]",
+          "duration_preference": "4 weeks",
+          "original_language": "en",
+          "original_utterance": "I'm looking for a 4-week project for students aged 12-14 about ancient civilizations. The project should include research, creative presentations, and a hands-on component. We have access to the school library and computer lab twice a week. Students should develop research skills, critical thinking, and presentation abilities while learning about different ancient cultures.",
+          "translation": "I'm looking for a 4-week project for students aged 12-14 about ancient civilizations. The project should include research, creative presentations, and a hands-on component. We have access to the school library and computer lab twice a week. Students should develop research skills, critical thinking, and presentation abilities while learning about different ancient cultures.",
+          "age_range": null,
+          "primary_intent": "Research Investigation",
+          "secondary_intents": [
+            "Creative Expression",
+            "Skill Application"
+          ],
+          "content_area_focus": "Humanities Focused",
+          "learning_outcomes": [
+            "Develop research skills",
+            "Develop critical thinking",
+            "Develop presentation abilities"
+          ],
+          "requires_experimentation": false,
+          "involves_data_collection": false,
+          "needs_mathematical_analysis": false,
+          "includes_design_challenge": false,
+          "uses_technology_tools": false,
+          "community_connection_desired": false,
+          "hands_on_emphasis": true,
+          "research_intensive": true,
+          "presentation_focused": true,
+          "collaborative_emphasis": false,
+          "materials_mentioned": false,
+          "resource_limitations_mentioned": true,
+          "time_constraints_noted": true,
+          "assessment_requirements": [],
+          "cultural_considerations": [],
+          "implicit_goals": [],
+          "class_interests": [],
+          "standard_codes": [],
+          "real_world_exploration": false,
+          "places_to_visit": [
+            "School library",
+            "Computer lab"
+          ],
+          "skills_to_develop": [],
+          "end_product": "Research presentations on different ancient cultures"
+        }
+      }
+    },
+    {
+      "test_id": "4",
+      "test_name": "Project in Spanish (Español)",
+      "status": "success",
+      "request": "Necesito un proyecto de 2 semanas para mi clase de biología de secundaria (10mo grado) sobre ecosistemas. Tenemos acceso limitado a tecnología pero podemos usar el jardín de la escuela. El proyecto debería ayudar a los estudiantes a comprender las cadenas alimentarias y el impacto humano en el medio ambiente. Muchos de mis estudiantes están aprendiendo inglés, por lo que el proyecto debería incluir componentes visuales y actividades prácticas. Los estándares que nos interesan son HS-LS2-6 y HS-LS2-7. A los estudiantes les gusta la ecología, las ciencias ambientales y la jardinería. Quisiera que desarrollen habilidades en recolección de datos, observación científica y análisis de ecosistemas.",
+      "response": {
+        "success": true,
+        "profile": {
+          "topic": "Ecosystems",
+          "grade_level": "10",
+          "duration_preference": "2 weeks",
+          "original_language": "es",
+          "original_utterance": "Necesito un proyecto de 2 semanas para mi clase de biología de secundaria (10mo grado) sobre ecosistemas. Tenemos acceso limitado a tecnología pero podemos usar el jardín de la escuela. El proyecto debería ayudar a los estudiantes a comprender las cadenas alimentarias y el impacto humano en el medio ambiente. Muchos de mis estudiantes están aprendiendo inglés, por lo que el proyecto debería incluir componentes visuales y actividades prácticas. Los estándares que nos interesan son HS-LS2-6 y HS-LS2-7. A los estudiantes les gusta la ecología, las ciencias ambientales y la jardinería. Quisiera que desarrollen habilidades en recolección de datos, observación científica y análisis de ecosistemas.",
+          "translation": "I need a 2-week project for my high school biology class (10th grade) on ecosystems. We have limited access to technology but can use the school garden. The project should help students understand food chains and human impact on the environment. Many of my students are learning English, so the project should include visual components and hands-on activities. The standards we are interested in are HS-LS2-6 and HS-LS2-7. The students like ecology, environmental science, and gardening. I would like them to develop skills in data collection, scientific observation, and ecosystem analysis.",
+          "age_range": null,
+          "primary_intent": "Scientific Inquiry",
+          "secondary_intents": [],
+          "content_area_focus": "STEM Heavy",
+          "learning_outcomes": [
+            "Understand food chains and webs",
+            "Analyze human impact on the environment",
+            "Develop skills in data collection, scientific observation, and ecosystem analysis"
+          ],
+          "requires_experimentation": true,
+          "involves_data_collection": true,
+          "needs_mathematical_analysis": false,
+          "includes_design_challenge": false,
+          "uses_technology_tools": false,
+          "community_connection_desired": false,
+          "hands_on_emphasis": true,
+          "research_intensive": true,
+          "presentation_focused": false,
+          "collaborative_emphasis": false,
+          "materials_mentioned": false,
+          "resource_limitations_mentioned": true,
+          "time_constraints_noted": true,
+          "assessment_requirements": [],
+          "cultural_considerations": [],
+          "implicit_goals": [],
+          "class_interests": [],
+          "standard_codes": [
+            "HS-LS2-6",
+            "HS-LS2-7"
+          ],
+          "real_world_exploration": true,
+          "places_to_visit": [
+            "School garden"
+          ],
+          "skills_to_develop": [
+            "Data collection",
+            "Scientific observation",
+            "Ecosystem analysis"
+          ],
+          "end_product": ""
+        }
+      }
+    },
+    {
+      "test_id": "5",
+      "test_name": "Project in French (Français)",
+      "status": "success",
+      "request": "Je recherche un projet de 4 semaines pour ma classe d'études sociales de 7e année sur le gouvernement local. Je veux que les élèves identifient un problème communautaire et proposent des solutions au conseil municipal. Nous pouvons faire une sortie scolaire à l'hôtel de ville. Le projet devrait inclure des recherches, des entretiens et une présentation. De nombreux élèves ont un accès limité à la technologie à la maison. Les compétences clés à développer sont la recherche, la prise de parole en public et la participation civique. Les élèves s'intéressent à l'engagement civique, au gouvernement local et au service communautaire.",
+      "response": {
+        "success": true,
+        "profile": {
+          "topic": "Local government",
+          "grade_level": "7",
+          "duration_preference": "4 weeks",
+          "original_language": "fr",
+          "original_utterance": "Je recherche un projet de 4 semaines pour ma classe d'études sociales de 7e année sur le gouvernement local. Je veux que les élèves identifient un problème communautaire et proposent des solutions au conseil municipal. Nous pouvons faire une sortie scolaire à l'hôtel de ville. Le projet devrait inclure des recherches, des entretiens et une présentation. De nombreux élèves ont un accès limité à la technologie à la maison. Les compétences clés à développer sont la recherche, la prise de parole en public et la participation civique. Les élèves s'intéressent à l'engagement civique, au gouvernement local et au service communautaire.",
+          "translation": "I am looking for a 4-week project for my 7th grade social studies class on local government. I want the students to identify a community problem and propose solutions to the city council. We can take a school field trip to the city hall. The project should include research, interviews, and a presentation. Many students have limited access to technology at home. The key skills to develop are research, public speaking, and civic engagement. Students are interested in civic engagement, local government, and community service.",
+          "age_range": null,
+          "primary_intent": "Community Action",
+          "secondary_intents": [
+            "Research Investigation",
+            "Skill Application"
+          ],
+          "content_area_focus": "Humanities Focused",
+          "learning_outcomes": [
+            "Identify a community problem",
+            "Propose solutions to the city council",
+            "Conduct research",
+            "Conduct interviews",
+            "Present findings"
+          ],
+          "requires_experimentation": false,
+          "involves_data_collection": false,
+          "needs_mathematical_analysis": false,
+          "includes_design_challenge": false,
+          "uses_technology_tools": false,
+          "community_connection_desired": true,
+          "hands_on_emphasis": false,
+          "research_intensive": false,
+          "presentation_focused": true,
+          "collaborative_emphasis": false,
+          "materials_mentioned": false,
+          "resource_limitations_mentioned": true,
+          "time_constraints_noted": false,
+          "assessment_requirements": [],
+          "cultural_considerations": [],
+          "implicit_goals": [],
+          "class_interests": [
+            "Civic engagement",
+            "Local government",
+            "Community service"
+          ],
+          "standard_codes": [],
+          "real_world_exploration": false,
+          "places_to_visit": [
+            "City hall"
+          ],
+          "skills_to_develop": [
+            "Research",
+            "Public speaking",
+            "Civic engagement"
+          ],
+          "end_product": ""
+        }
+      }
+    },
+    {
+      "test_id": "6",
+      "test_name": "Project in Mandarin (中文)",
+      "status": "success",
+      "request": "我正在为我的七年级社会科学课寻找一个关于地方政府的4周项目。我希望学生能够识别一个社区问题，并向市议会提出解决方案。我们可以去市政厅进行实地考察。这个项目应该包括研究、采访和展示部分。许多学生在家中使用科技设备的机会有限。学生们对公民参与、地方政府和社区服务感兴趣。我希望他们能发展研究、公开演讲和公民参与的能力。",
+      "response": {
+        "success": true,
+        "profile": {
+          "topic": "Local Government",
+          "grade_level": "7",
+          "duration_preference": "4 weeks",
+          "original_language": "zh",
+          "original_utterance": "我正在为我的七年级社会科学课寻找一个关于地方政府的4周项目。我希望学生能够识别一个社区问题，并向市议会提出解决方案。我们可以去市政厅进行实地考察。这个项目应该包括研究、采访和展示部分。许多学生在家中使用科技设备的机会有限。学生们对公民参与、地方政府和社区服务感兴趣。我希望他们能发展研究、公开演讲和公民参与的能力。",
+          "translation": "I am looking for a 4-week project on local government for my 7th grade social science class. I hope the students can identify a community problem and propose solutions to the city council. We can do a site visit to the city hall. The project should include research, interviews, and a presentation component. Many students have limited access to technology at home. The students are interested in civic engagement, local government, and community service. I hope they can develop research, public speaking, and civic participation skills.",
+          "age_range": null,
+          "primary_intent": "Community Action",
+          "secondary_intents": [],
+          "content_area_focus": "Humanities Focused",
+          "learning_outcomes": [
+            "Research community issues",
+            "Propose solutions to local government",
+            "Develop public speaking skills",
+            "Engage in civic participation"
+          ],
+          "requires_experimentation": true,
+          "involves_data_collection": true,
+          "needs_mathematical_analysis": false,
+          "includes_design_challenge": true,
+          "uses_technology_tools": true,
+          "community_connection_desired": true,
+          "hands_on_emphasis": false,
+          "research_intensive": false,
+          "presentation_focused": true,
+          "collaborative_emphasis": false,
+          "materials_mentioned": false,
+          "resource_limitations_mentioned": false,
+          "time_constraints_noted": false,
+          "assessment_requirements": [],
+          "cultural_considerations": [
+            "Limited access to technology at home"
+          ],
+          "implicit_goals": [],
+          "class_interests": [],
+          "standard_codes": [],
+          "real_world_exploration": true,
+          "places_to_visit": [
+            "City hall"
+          ],
+          "skills_to_develop": [
+            "Research",
+            "Public speaking",
+            "Civic engagement"
+          ],
+          "end_product": ""
+        }
+      }
+    }
+  ]
+}
