@@ -1,7 +1,9 @@
 import logging
+import os
 from typing import List, Dict, Any, Optional
 from pydantic_ai import Agent, RunContext
 from pydantic_ai.models.bedrock import BedrockConverseModel
+from app.pbl_assistant.aws_config import get_bedrock_client
 
 from app.pbl_assistant.models.profiling import (
     ProjectDetails, 
@@ -10,7 +12,11 @@ from app.pbl_assistant.models.profiling import (
 
 # Simple, focused standards agent
 standards_agent = Agent(
-    model=BedrockConverseModel("anthropic.claude-3-haiku-20240307-v1:0"),
+    model=BedrockConverseModel(
+        "anthropic.claude-3-haiku-20240307-v1:0",
+        client=get_bedrock_client(),
+        region_name=os.environ.get("AWS_REGION", "us-east-1")
+    ),
     deps_type=ProjectDetails,
     result_type=StandardsAlignment,
     result_retries=3,

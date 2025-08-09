@@ -1,9 +1,11 @@
 import logging
+import os
 from typing import Dict, Any, Optional, List
 from pydantic_ai import Agent, RunContext
 from pydantic_ai.models.bedrock import BedrockConverseModel
 from pydantic import ValidationError
 import asyncio
+from app.pbl_assistant.aws_config import get_bedrock_client
 
 from app.pbl_assistant.models.profiling import StandardsAlignment, KnowledgeGraphResult
 
@@ -11,7 +13,11 @@ logger = logging.getLogger(__name__)
 
 # Fixed KG agent with explicit instructions
 kg_agent = Agent(
-    model=BedrockConverseModel("anthropic.claude-3-sonnet-20240229-v1:0"),
+    model=BedrockConverseModel(
+        "anthropic.claude-3-sonnet-20240229-v1:0",
+        client=get_bedrock_client(),
+        region_name=os.environ.get("AWS_REGION", "us-east-1")
+    ),
     deps_type=StandardsAlignment,
     result_type=KnowledgeGraphResult,
     result_retries=3,

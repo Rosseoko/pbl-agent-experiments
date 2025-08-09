@@ -4,6 +4,7 @@ from typing import List, Dict, Any, Optional
 import os
 import importlib
 import logging
+from app.pbl_assistant.aws_config import get_bedrock_client
 
 # Import models
 # Import from the main designing package which exposes all necessary components
@@ -21,7 +22,11 @@ logger = logging.getLogger(__name__)
 
 # Agent Definition
 design_options_agent = Agent(
-    model=BedrockConverseModel("anthropic.claude-3-sonnet-20240229-v1:0"),
+    model=BedrockConverseModel(
+        "anthropic.claude-3-sonnet-20240229-v1:0",
+        client=get_bedrock_client(),
+        region_name=os.environ.get("AWS_REGION", "us-east-1")
+    ),
     deps_type=ProjectDesignContext,
     result_type=ProjectOptionsResult,
     result_retries=2,

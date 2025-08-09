@@ -1,8 +1,10 @@
 from typing import Dict, Any
+import os
 
 from pydantic_ai import Agent, RunContext
 from pydantic_ai.models.bedrock import BedrockConverseModel
 from app.pbl_assistant.models.profiling import ProjectDetails
+from app.pbl_assistant.aws_config import get_bedrock_client
 from app.pbl_assistant.utils.profiling import process_age_input
 
 system_prompt = """
@@ -55,7 +57,11 @@ NEVER leave the 'response' field empty or null, even when just asking for more i
 
 # Create the agent with the correct configuration
 info_gathering_agent = Agent(
-    model=BedrockConverseModel("anthropic.claude-3-haiku-20240307-v1:0"),
+    model=BedrockConverseModel(
+        "anthropic.claude-3-haiku-20240307-v1:0",
+        client=get_bedrock_client(),
+        region_name=os.environ.get("AWS_REGION", "us-east-1")
+    ),
     result_type=ProjectDetails,
     system_prompt=system_prompt,
     retries=3

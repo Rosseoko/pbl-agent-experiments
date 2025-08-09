@@ -741,6 +741,9 @@ def build_pbl_agent_graph():
 # Create the PBL agent graph
 pbl_agent_graph = build_pbl_agent_graph()
 
+# Ensure this is exported
+__all__ = ['pbl_agent_graph', 'run_pbl_agent']
+
 
 # Function to run the PBL agent
 async def run_pbl_agent(user_input: str, thread_id: str = None, class_profile: str = "", language: str = "English"):

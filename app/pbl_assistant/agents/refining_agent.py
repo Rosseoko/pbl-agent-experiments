@@ -3,10 +3,12 @@
 from __future__ import annotations
 
 from typing import List, Optional
+import os
 
 from pydantic import BaseModel, Field
 from pydantic_ai import Agent
 from pydantic_ai.models.bedrock import BedrockConverseModel
+from app.pbl_assistant.aws_config import get_bedrock_client
 
 from app.pbl_assistant.models.profiling import (
     ProjectOption,
@@ -107,7 +109,11 @@ If the teacher’s request implies no meaningful change, return the same project
 # Allow model override via env var if desired; default to Haiku for speed/cost parity with your other agents.
 
 refining_agent = Agent[RefinementResult, RefinementContext](
-    model=BedrockConverseModel("anthropic.claude-3-sonnet-20240229-v1:0"),
+    model=BedrockConverseModel(
+        "anthropic.claude-3-sonnet-20240229-v1:0",
+        client=get_bedrock_client(),
+        region_name=os.environ.get("AWS_REGION", "us-east-1")
+    ),
     result_type=RefinementResult,
     system_prompt=SYSTEM_PROMPT,
     retries=3,  # be a little forgiving on schema conformance
