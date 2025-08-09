@@ -12,6 +12,9 @@ DEFAULT_AWS_REGION = "us-east-1"
 # Get AWS region from environment or use default
 AWS_REGION = os.environ.get("AWS_REGION", DEFAULT_AWS_REGION)
 
+# Set AWS_DEFAULT_REGION environment variable to ensure boto3 uses the correct region
+os.environ["AWS_DEFAULT_REGION"] = AWS_REGION
+
 # Create a default boto3 session with the region
 def get_boto3_session():
     """

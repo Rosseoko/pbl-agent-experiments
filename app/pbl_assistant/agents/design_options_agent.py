@@ -22,10 +22,7 @@ logger = logging.getLogger(__name__)
 
 # Agent Definition
 design_options_agent = Agent(
-    model=BedrockConverseModel(
-        "anthropic.claude-3-sonnet-20240229-v1:0",
-        region_name=os.environ.get("AWS_REGION", "us-east-1")
-    ),
+    model=BedrockConverseModel("anthropic.claude-3-sonnet-20240229-v1:0"),
     deps_type=ProjectDesignContext,
     result_type=ProjectOptionsResult,
     result_retries=2,

@@ -12,10 +12,7 @@ from app.pbl_assistant.models.profiling import (
 
 # Simple, focused standards agent
 standards_agent = Agent(
-    model=BedrockConverseModel(
-        "anthropic.claude-3-haiku-20240307-v1:0",
-        region_name=os.environ.get("AWS_REGION", "us-east-1")
-    ),
+    model=BedrockConverseModel("anthropic.claude-3-haiku-20240307-v1:0"),
     deps_type=ProjectDetails,
     result_type=StandardsAlignment,
     result_retries=3,
