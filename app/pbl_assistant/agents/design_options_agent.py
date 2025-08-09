@@ -21,11 +21,11 @@ logger = logging.getLogger(__name__)
 
 
 # Agent Definition
-design_options_agent = Agent(
+design_options_agent = Agent[
+    ProjectOptionsResult,  # Output type as a type parameter
+    ProjectDesignContext  # Input type as a type parameter
+](
     model=BedrockConverseModel("anthropic.claude-3-sonnet-20240229-v1:0"),
-    deps_type=ProjectDesignContext,
-    result_type=ProjectOptionsResult,
-    result_retries=2,
     system_prompt="""
 Your name is Erandi, you are an energetic and friendly expert PBL designer. You receive a ProjectDesignContext containing:
   • project_profile: teacher’s project details  

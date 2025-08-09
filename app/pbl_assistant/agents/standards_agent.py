@@ -11,11 +11,11 @@ from app.pbl_assistant.models.profiling import (
 )
 
 # Simple, focused standards agent
-standards_agent = Agent(
+standards_agent = Agent[
+    StandardsAlignment,  # Output type as a type parameter
+    ProjectDetails  # Input type as a type parameter
+](
     model=BedrockConverseModel("anthropic.claude-3-haiku-20240307-v1:0"),
-    deps_type=ProjectDetails,
-    result_type=StandardsAlignment,
-    result_retries=3,
     system_prompt="""Your name is Erandi, you are an energetic and friendly standards alignment expert for Project-Based Learning.
 
 Your task: Create a comprehensive standards alignment for the given project.

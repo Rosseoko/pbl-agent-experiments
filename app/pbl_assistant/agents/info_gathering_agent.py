@@ -56,11 +56,12 @@ NEVER leave the 'response' field empty or null, even when just asking for more i
 """
 
 # Create the agent with the correct configuration
-info_gathering_agent = Agent(
+info_gathering_agent = Agent[
+    ProjectDetails,  # Output type as a type parameter
+    None  # Input type as a type parameter (None for no input)
+](
     model=BedrockConverseModel("anthropic.claude-3-haiku-20240307-v1:0"),
-    result_type=ProjectDetails,
-    system_prompt=system_prompt,
-    retries=3
+    system_prompt=system_prompt
 )
 
 

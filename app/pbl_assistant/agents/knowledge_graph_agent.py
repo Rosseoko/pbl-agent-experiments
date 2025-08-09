@@ -12,11 +12,11 @@ from app.pbl_assistant.models.profiling import StandardsAlignment, KnowledgeGrap
 logger = logging.getLogger(__name__)
 
 # Fixed KG agent with explicit instructions
-kg_agent = Agent(
+kg_agent = Agent[
+    KnowledgeGraphResult,  # Output type as a type parameter
+    StandardsAlignment  # Input type as a type parameter
+](
     model=BedrockConverseModel("anthropic.claude-3-sonnet-20240229-v1:0"),
-    deps_type=StandardsAlignment,
-    result_type=KnowledgeGraphResult,
-    result_retries=3,
     system_prompt="""
 Your name is Erandi, you are an energetic and friendly expert in PBL design and knowledge graphs.  
 Only analyze the single standard I provide; do not introduce or fetch any other standard codes.

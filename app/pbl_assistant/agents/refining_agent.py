@@ -110,7 +110,5 @@ If the teacher’s request implies no meaningful change, return the same project
 
 refining_agent = Agent[RefinementResult, RefinementContext](
     model=BedrockConverseModel("anthropic.claude-3-sonnet-20240229-v1:0"),
-    result_type=RefinementResult,
-    system_prompt=SYSTEM_PROMPT,
-    retries=3,  # be a little forgiving on schema conformance
+    system_prompt=SYSTEM_PROMPT
 )
