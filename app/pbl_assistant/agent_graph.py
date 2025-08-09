@@ -11,9 +11,13 @@ from pydantic_ai.exceptions import UnexpectedModelBehavior
 import logfire
 import asyncio
 import os
-from models.profiling import ProjectOption
+from app.pbl_assistant.models.profiling import ProjectOption
 import re
-from datetime import datetime
+from datetime import datetime, timezone
+import certifi
+
+# Get certifi CA bundle path
+CA = certifi.where()
 
 # Make MongoDB optional
 try:
@@ -63,11 +67,17 @@ _templates_col = None
 # Only initialize if AsyncIOMotorClient is available
 if AsyncIOMotorAsyncClient := AsyncIOMotorClient:  # guard aliasing
     try:
-        _mongo_client = AsyncIOMotorAsyncClient(ATLAS_URI)
+        _mongo_client = AsyncIOMotorAsyncClient(
+            ATLAS_URI,
+            tlsCAFile=CA,
+            connectTimeoutMS=20000,
+            serverSelectionTimeoutMS=20000,
+        )
         if _mongo_client is not None:
             _mongo_db = _mongo_client[ATLAS_DB]
             if _mongo_db is not None:
                 _templates_col = _mongo_db["project_templates"]
+                # Test connection
                 logger.info("MongoDB connection initialized successfully")
     except Exception as e:
         logger.warning("Failed to initialize MongoDB connection: %s", e)
@@ -634,7 +644,7 @@ async def _save_selected_option_to_mongo(state: PBLState, selected: ProjectOptio
             "selected_option_index": choice_index,
             "selected_option": selected.model_dump(),
             "all_options": (state.get("project_options", {}) or {}).get("project_options", []),
-            "created_at": datetime.utcnow(),
+            "created_at": datetime.now(timezone.utc),
         }
         res = await _templates_col.insert_one(doc)
         return str(res.inserted_id)

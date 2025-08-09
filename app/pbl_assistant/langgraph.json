@@ -1,7 +1,8 @@
 {
     "dependencies": ["."],
     "graphs": {
-      "agent": "./agent_graph.py:pbl_agent_graph"
+      "agent": "./agent_graph.py:pbl_agent_graph",
+      "refine": "./refine_graph.py:refine_agent_graph"
     },
     "env": ".env"
   }
