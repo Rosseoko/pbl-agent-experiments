@@ -14,7 +14,6 @@ from app.pbl_assistant.models.profiling import (
 standards_agent = Agent(
     model=BedrockConverseModel(
         "anthropic.claude-3-haiku-20240307-v1:0",
-        client=get_bedrock_client(),
         region_name=os.environ.get("AWS_REGION", "us-east-1")
     ),
     deps_type=ProjectDetails,

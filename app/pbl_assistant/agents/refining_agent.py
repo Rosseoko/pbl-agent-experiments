@@ -111,7 +111,6 @@ If the teacher’s request implies no meaningful change, return the same project
 refining_agent = Agent[RefinementResult, RefinementContext](
     model=BedrockConverseModel(
         "anthropic.claude-3-sonnet-20240229-v1:0",
-        client=get_bedrock_client(),
         region_name=os.environ.get("AWS_REGION", "us-east-1")
     ),
     result_type=RefinementResult,

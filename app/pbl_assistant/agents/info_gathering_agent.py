@@ -59,7 +59,6 @@ NEVER leave the 'response' field empty or null, even when just asking for more i
 info_gathering_agent = Agent(
     model=BedrockConverseModel(
         "anthropic.claude-3-haiku-20240307-v1:0",
-        client=get_bedrock_client(),
         region_name=os.environ.get("AWS_REGION", "us-east-1")
     ),
     result_type=ProjectDetails,
